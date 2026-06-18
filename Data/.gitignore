@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.pytest_cache/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Raw/local data
+*.csv
+*.arff
+*.data
+*.names
+*.xlsx
+*.xls
+*.parquet
+*.npy
+*.npz
+data/
+data_candidates/
+**/data/
+**/Data/
+
+# Generated artifacts
+*.log
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.bmp
+**/results*/
+**/Model/
+**/model/
+common/results*/
+Simulation/Review_*/
